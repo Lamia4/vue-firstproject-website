@@ -51,6 +51,9 @@ export default {
 body, html {
   font-family: "PT Serif", serif;
   background-color: rgb(36, 15, 88);
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
 }
 
 .flexrow {
@@ -141,12 +144,11 @@ button.submit {
   margin-left: 20px;
   padding: 12px 14px;
   width: 240px;
-  transition: 0.25s all ease-in;
 }
 button.submit:hover {
   opacity: 0.8;
   background-color: rgb(154, 32, 124);
-  transition: 0.25s all ease-out;
+  transition: all ease-out;
 }
 
 .quant-text {
