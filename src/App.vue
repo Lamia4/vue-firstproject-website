@@ -63,14 +63,14 @@ body, html {
 
 header {
   background: #222;
-  padding: 30px 0px 10px 0px;
+  padding: 30px 0px 0px 0px;
   width: 100vw;
   color: white;
   display: flex;
   align-content: center;
   justify-content: center;
   height: 80px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 header ul {
   padding-left: 0;
@@ -183,13 +183,12 @@ button.submit:hover {
 }
 .bannerAnime{
   height: 600px;
-  padding: 0px 10px 0px 10px;
   width: 100vw;
 }
 .titlebanner {
   text-align: center;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 32px;
   --shadow-color: #cd95c0;
   --shadow-color-light: rgb(213, 114, 219);
   color: rgb(154, 32, 124);
